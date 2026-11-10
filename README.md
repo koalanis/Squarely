@@ -84,3 +84,7 @@ dotnet publish src -c Release -r win-x64 --self-contained false -p:PublishSingle
 | `src/WinEvents.fs`, `Hotkeys.fs` | System event hooks and global hotkeys |
 | `src/Overlay.fs`, `DragSnap.fs` | Drag-to-snap preview and behaviour |
 | `src/App.fs` | Tray icon, menu, entry point |
+
+## License
+
+[MIT](LICENSE)

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>Squarely</AssemblyName>
+    <RootNamespace>Squarely</RootNamespace>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Native.fs" />
+    <Compile Include="Geometry.fs" />
+    <Compile Include="Config.fs" />
+    <Compile Include="WindowOps.fs" />
+    <Compile Include="Manager.fs" />
+    <Compile Include="WinEvents.fs" />
+    <Compile Include="Hotkeys.fs" />
+    <Compile Include="Overlay.fs" />
+    <Compile Include="DragSnap.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+</Project>
